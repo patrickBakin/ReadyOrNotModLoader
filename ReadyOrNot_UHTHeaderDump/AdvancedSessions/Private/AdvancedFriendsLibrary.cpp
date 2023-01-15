@@ -1,0 +1,25 @@
+#include "AdvancedFriendsLibrary.h"
+
+class APlayerController;
+
+void UAdvancedFriendsLibrary::SendSessionInviteToFriends(APlayerController* PlayerController, const TArray<FBPUniqueNetId>& Friends, EBlueprintResultSwitch& Result) {
+}
+
+void UAdvancedFriendsLibrary::SendSessionInviteToFriend(APlayerController* PlayerController, const FBPUniqueNetId& FriendUniqueNetId, EBlueprintResultSwitch& Result) {
+}
+
+void UAdvancedFriendsLibrary::IsAFriend(APlayerController* PlayerController, const FBPUniqueNetId UniqueNetId, bool& IsFriend) {
+}
+
+void UAdvancedFriendsLibrary::GetStoredRecentPlayersList(FBPUniqueNetId UniqueNetId, TArray<FBPOnlineRecentPlayer>& PlayersList) {
+}
+
+void UAdvancedFriendsLibrary::GetStoredFriendsList(APlayerController* PlayerController, TArray<FBPFriendInfo>& FriendsList) {
+}
+
+void UAdvancedFriendsLibrary::GetFriend(APlayerController* PlayerController, const FBPUniqueNetId FriendUniqueNetId, FBPFriendInfo& Friend) {
+}
+
+UAdvancedFriendsLibrary::UAdvancedFriendsLibrary() {
+}
+
