@@ -1,6 +1,6 @@
 # ReadyOrNotModLoader
 Load and spawn Blueprints class from pak file
-
+I've Provided the UHT HeaderDump for making dummy c++ class
 ## Usage
 1. Extract the .rar file in game binaries/Win64 directory (mine is steamapps\common\Ready Or Not\ReadyOrNot\Binaries\Win64)
 2. Create a folder in the same directory as ReadyOrNot .pak files name it "PakMod" and put your mod there
